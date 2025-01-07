@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'cairo', 'IBM Plex Sans Arabic', sans-serif;
+}
+.bg-lightGreen {
+  background-color: #92d240;
+}
+.absolute-full {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+}
+.h2-5 {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 105 95/ var(--tw-bg-opacity));
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.group:hover .group-hover\:flex {
+  display: flex;
+  pointer-events: auto;
+  padding: 10px 0;
+}
+.group:hover .group-hover\:visible {
+  visibility: visible;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+
+.bg-primary\/80 {
+  background-color: rgba(0, 105, 95, .8);
+}
+
+.aspect-\[18\/16\] {
+  aspect-ratio: 18 / 16;
+}
+
+
+.svg-bg{
+  clip-path: polygon(51% 0, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
