@@ -6,6 +6,12 @@ import './i18n';
 import i18n from './i18n';
 import './index.css';
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+import "swiper/css/effect-coverflow";
+
 const defaultLang = localStorage.getItem('lang') || 'ar'; // اجعلها 'en' افتراضياً
 document.dir = defaultLang === 'ar' ? 'rtl' : 'ltr'; // اجعل 'ltr' الافتراضي
 
