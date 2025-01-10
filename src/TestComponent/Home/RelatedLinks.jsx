@@ -22,7 +22,12 @@ const  RelatedLinks = () =>  {
   return (
     <div className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#92d240]">روابط ذات صلة</h2>
+ 
+          <h2 className="text-4xl font-semibold text-center text-white ">
+          روابط ذات صلة
+
+      </h2>
+      <div className="  bg-lightGreen h-[8px]  w-32 mx-auto mb-12 mt-4 rounded-full" />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {links.map((link, index) => (
             <div key={index} className="text-center bg-white p-2 rounded-md">
